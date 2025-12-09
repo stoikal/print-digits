@@ -8,4 +8,19 @@ function main (num) {
   }
 }
 
-main(12345)
+main(123456789)
+
+// // without string manipulation
+// function main (num) {
+//   const res = []
+//   let multiplier = 10;
+
+//   while (num > 0) {
+//     const n = num % multiplier;
+//     num -= n;
+//     res.unshift(n);
+//     multiplier *= 10;
+//   }
+
+//   res.forEach(n => console.log(n));
+// }
